@@ -1,8 +1,4 @@
-﻿global using DotNet8WebApi.InMemoryCacheExample.Models;
-global using DotNet8WebApi.InMemoryCacheExample.Services;
-global using Microsoft.AspNetCore.Mvc;
-
-namespace DotNet8WebApi.InMemoryCacheExample.Controllers
+﻿namespace DotNet8WebApi.InMemoryCacheExample.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
