@@ -11,7 +11,6 @@ public class CacheService
 
     public void Set<T>(string key, T value)
     {
-
         var cacheEntryOptions = new MemoryCacheEntryOptions
         {
             AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(20),
