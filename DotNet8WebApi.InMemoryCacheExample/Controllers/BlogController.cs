@@ -1,5 +1,4 @@
 ﻿using DotNet8WebApi.InMemoryCacheExample.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 
