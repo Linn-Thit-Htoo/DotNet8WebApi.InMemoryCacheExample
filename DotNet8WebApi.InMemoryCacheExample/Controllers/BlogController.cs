@@ -1,8 +1,4 @@
-﻿using DotNet8WebApi.InMemoryCacheExample.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
-
-namespace DotNet8WebApi.InMemoryCacheExample.Controllers;
+﻿namespace DotNet8WebApi.InMemoryCacheExample.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
