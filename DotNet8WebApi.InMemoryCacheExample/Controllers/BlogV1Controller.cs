@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using DotNet8WebApi.InMemoryCacheExample.Models;
-using DotNet8WebApi.InMemoryCacheExample.Services;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿global using DotNet8WebApi.InMemoryCacheExample.Models;
+global using DotNet8WebApi.InMemoryCacheExample.Services;
+global using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8WebApi.InMemoryCacheExample.Controllers
 {
