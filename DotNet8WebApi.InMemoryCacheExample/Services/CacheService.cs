@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Caching.Memory;
-
-namespace DotNet8WebApi.InMemoryCacheExample.Services
+﻿namespace DotNet8WebApi.InMemoryCacheExample.Services
 {
     public class CacheService
     {
