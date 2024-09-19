@@ -24,8 +24,12 @@ public class CacheService
 
     #endregion
 
+    #region Get
+
     public T? Get<T>(string key)
     {
         return _cache.TryGetValue(key, out T? cacheEntry) ? cacheEntry : default;
     }
+
+    #endregion
 }
