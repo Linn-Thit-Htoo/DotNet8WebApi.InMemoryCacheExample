@@ -9,6 +9,8 @@ public class CacheService
         _cache = cache;
     }
 
+    #region Set
+
     public void Set<T>(string key, T value)
     {
         var cacheEntryOptions = new MemoryCacheEntryOptions
@@ -19,6 +21,8 @@ public class CacheService
         };
         _cache.Set<T>(key, value, cacheEntryOptions);
     }
+
+    #endregion
 
     public T? Get<T>(string key)
     {
